@@ -1,0 +1,32 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+#cheess{
+	width: 600px;
+	height: 600px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.outer{
+	width: 75px;
+	height: 75px;
+}
+.black{
+	background-color: #4f4f4f;
+}
+.white{
+	background-color: #ffffff;
+}
+img{
+	margin-left: 5%;
+	width: 90%;
+	margin-top: 5%;
+	height: 90%;
+}
+.pawn{
+	margin-left: 10%;
+	width: 80%;
+}
